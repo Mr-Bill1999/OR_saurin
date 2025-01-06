@@ -3,6 +3,7 @@
 В каждый сервис были добавлены небольшие доработки для более удобного тестирования.
 
 1. https://hub.docker.com/repository/docker/sjey666/short_url
+
    https://hub.docker.com/repository/docker/sjey666/todo_app
     - ссылки на dockerhub. Тут можно найти 2 нужных нам образа в публичном доступе.
 
