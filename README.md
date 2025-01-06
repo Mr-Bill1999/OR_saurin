@@ -2,7 +2,9 @@
 В гите можно ознакомиться с полным кодом сервисов. Для каждого из них своя папка.
 В каждый сервис были добавлены небольшие доработки для более удобного тестирования.
 
-1. https://hub.docker.com/repositories/sjey666 - ссылка на dockerhub. Тут можно найти 2 нужных нам образа в публичном доступе.
+1. https://hub.docker.com/repository/docker/sjey666/short_url
+   https://hub.docker.com/repository/docker/sjey666/todo_app
+    - ссылки на dockerhub. Тут можно найти 2 нужных нам образа в публичном доступе.
 
 2. Для скачивания образов необходимо прописать 2 команды
 docker pull sjey666/short_url:latest
@@ -13,7 +15,7 @@ docker pull sjey666/todo_app:latest
 
 docker run -p 8080:80 sjey666/short_url(в обычном терминале или докер для запуска контейнера)
 
-и сервис доступен по адресу  http://localhost:8080/docs.
+и сервис доступен по адресу  http://localhost:8080/docs(либо другой удобный порт).
 
 4. Кратко о сервисах
    SHORT_URL
